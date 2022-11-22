@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/resultat.css">
+    <title>site eRESULTAT</title>
+</head>
+<body> 
+        <div class="menu-container">
+            <div class="logo"><img src="../Images/embleme_Bénin.png " width="60px" height= "60px"></div>
+            <div class="max">
+                <p class="header-lien">eRESULTATS</p>
+                <div class="color">
+                <div class="green"></div>
+                <div class="yellow"></div>
+                <div class="red"></div>
+                </div>
+                <p class="details">PORTAIL DES EXAMENS ET DES COUCOURS DU BENIN</p>
+            </div>
+
+        <div class="nav">
+                <ul>
+                <li><a href="#">comment ça marche?</a></li>
+                <li><a href="#" onclick="displayExamMenu()">EXAMENS <span>+</span></a>
+                <ul id="exam">
+                <li><a href="#">LISTE DES EXAMENS</a></li>
+                <li><a href="#">RESULTATS</a></li>
+                </ul>
+                </li>
+                
+                <li><a href="#" onclick="displayContextMenu()">CONCOURS <span>+</span></a>
+                <ul id="concour">
+                    <li><a  href="#">LISTE DES CONCOURS </a> </li>
+                    <li><a  href="#">RESULTATS </a></li>
+                </ul> 
+            </li> 
+
+            <li><a  href="#">EPREUVES ET CORRIGES</a></li>
+             <li><a  href="#">FOIRE AUX QUESTIONS</a></li>
+            </ul>       
+              <script>
+               const  concour_btn = document.getElementById('concour');
+               const  exam_btn = document.getElementById('exam');
+               
+                function  displayExamMenu()
+                {
+                   if(exam_btn.style.display == "block") 
+                    
+                    exam_btn.style.display = "none"; 
+                    
+                    else{
+                        exam_btn.style.display = "block";
+                        concour_btn.style.display = "none"
+                    }
+                                  
+                }
+
+                function  displayContextMenu()
+                {
+                   if(concour_btn.style.display == "block")
+                
+                    concour_btn.style.display = "none";
+                    
+                    else {
+                        concour_btn.style.display = "block"
+                        exam_btn.style.display = "none";
+                    }
+                              
+                }
+              </script>  
+        </div> 
+    </div>
+    <section class="section1">
+             <section class="image-container">
+            <h1> BIENVENUE SUR LA PLATEFORME ERéSULTATS</h1>
+            <p>Vos résultats des examens(BAC,BEPC,CEP,etc.) et coucours nationaux sont disponibles en lignes.</p>
+            <p><b>eresultats vous souhaite une belle réussite!</b></p>
+        </section>
+    </section>
+    <section class="sect">
+        <p class="section2-1">Examens & coucours nationaux</p>
+        <a href="" class="voir">voir tout</a>
+    </section>
+    <section class="section2">
+        <div class="section2-2">
+            <h2>  01  </h2>
+            <h4>CEP Session des malades<br>de Juillet 2022</h4>
+            <p>Direction des examens et <br>coucours MEMP</p>
+        </div>
+        <div class="section2-2-1">
+            <h2 >  02  </h2>
+            <h4>CEP Session normale<br>de Juin 2022</h4>
+            <p>Direction des examens et <br>coucours MEMP</p>
+        </div>
+        <div class="section2-2-1">
+            <h2>  03 </h2>
+            <h4>BEPC Session de juin 2022</h4>
+            <p>Direction des examens et <br>coucours MESTFP</p>
+        </div>
+        <div class="section2-2-1">
+            <h2>  04  </h2>
+            <h4>BAC Session de Juin 2022</h4>
+            <p>Office du Baccarauléat</p>
+        </div>
+        <div class="section2-2-2">
+            <h2>  05  </h2>
+            <h4>Inscription au fichier national<br>des principales fonctions<br>administratives et techniques<br>des communes</h4>
+            <p>Ministre de la Décentralisation et <br>de la Gouvernance Locale</p>
+        </div>
+        <div class="section2-2-3">
+            <h2>  06  </h2>
+            <h4>Master 2021</h4>
+            <p>Direction des examens et coucours<br> MESRS</p>
+        </div>
+        <div class="section2-2-4">
+            <h2>  07  </h2>
+            <h4>Licence 2021</h4>
+            <p>Direction des examens et coucours<br> MESRS</p>
+        </div>
+        <div class="section2-2-5">
+            <h2>  08  </h2>
+            <h4>coucours d'entrée à l'INSPEI<br>2021</h4>
+            <p>Direction des examens et coucours<br> MESRS</p>
+        </div>
+    </section>
+    <div class="span">
+        <span></span>
+    </div>
+    <section class="section3">
+        <div class="section3-1">
+            <h2>  01  </h2>
+            <h4>CEAP 2022</h4>
+            <p class="section3-1-p1">Direction des examens et <br>coucours MEMP</p>
+            <p class="section3-1-p2">Bientôt disponible</p>
+        </div> 
+        <div class="section3-1-1">
+            <h2>  02  </h2>
+            <h4>CAP 2022</h4>
+            <p class="section3-1-1-p1">Direction des examens et <br>coucours MEMP</p>
+            <p class="section3-1-1-p2">Bientôt disponible</p>
+        </div>  
+        <div class="section3-1-2">
+            <h2>  03  </h2>
+            <h4>Coucours d'entrée de l'IFSIO <br>2022</h4>
+            <p class="section3-1-2-p1">Direction des examens et coucours<br> MESRS</p>
+            <p class="section3-1-2-p2">Bientôt disponible</p>
+        </div>  
+        <div class="section3-1-3">
+            <h2>  04  </h2>
+            <h4>Coucours d'entrée de l'INMeS <br>2022</h4>
+            <p class="section3-1-3-p1">Direction des examens et <br>coucours MESRS</p>
+            <p class="section3-1-3-p2">Bientôt disponible</p>
+        </div>  
+        <div class="section3-1-3">
+            <h2>  05  </h2>
+            <h4>Coucours d'entrée de l'
+                INSPD<br>2022</h4>
+            <p class="section3-1-3-p1">Direction des examens et <br>coucours MESRS</p>
+            <p class="section3-1-3-p2">Bientôt disponible</p>
+        </div>  
+        <div class="section3-1-4">
+            <h2>  06  </h2>
+            <h4>Coucours d'entrée de l'ENSTIC<br> 2022</h4>
+            <p class="section3-1-4-p1">Direction des examens et <br>coucours MESRS</p>
+            <p class="section3-1-4-p2">Bientôt disponible</p>
+        </div>  
+        <div class="section3-1-5">
+            <h2>  07 </h2>
+            <h4>Coucours d'entrée de l'ENEAM<br> 2022</h4>
+            <p class="section3-1-5-p1">Direction des examens et <br>coucourSs MESRS</p>
+            <p class="section3-1-5-p2">Bientôt disponible</p>
+        </div>  
+        <div class="section3-1-3">
+            <h2>  08 </h2>
+            <h4>Coucours d'entrée de CAFCP<br> 2022</h4>
+            <p class="section3-1-3-p1">Direction des examens et <br>coucours MEMP</p>
+            <p class="section3-1-3-p2">Bientôt disponible</p>
+        </div>    
+    </section>
+    <footer>
+        <section class="information">
+            <div class="more">
+               <h2>ERESULTATS</h2>
+               <p>i</p>
+            </div>
+              <div class="more2">A propos</div>
+            <div class="more1">
+            <p>i</p>
+            <h6>mentions légales</h6>
+            </div>
+        </div>
+        <div class="rafi">
+            <h2>INFORMATIONS UTILES</h2>
+            <p>i</p>
+        </div>
+        <div class="rafi1">comment ça marche?</div>
+        <div class="rafi2">
+            <p>i</p>
+            <h6>F.A.Q</h6>
+        </div>
+        <div class="berna">CONTRIBUER</div>
+        <div class="berna1">
+            <p>Faire une suggestion </p>
+            <h6>Signaler un problème</h6>
+        </div>
+        <div class="sena">
+            <p>SUIVEZ NOUS SUR</p>
+            <img src="/Images/facebook.090d4371.svg" id="s1">
+            <img src="/Images/youtube.31cbb8b0.svg" id="2">
+            <img src="/Images/twitter.12aa5350.svg" id="3">
+        </div>
+        <div class="fifa">
+            <p>2022 Portail des examens et des coucours du BENIN-eresultats.bj</p>
+        </div>
+    </section>
+   </footer>
+</body>
+</html>
